@@ -24,9 +24,7 @@ def main():
 
     @st.cache_data(persist=True)
     def load_data():
-        data = pd.read_csv(
-            "C:/Users/jtwat/OneDrive/Documents/data_science/streamlit-ml-waze-churn/waze_dataset.csv"
-        )
+        data = pd.read_csv("./data/waze_dataset.csv")
         data = data[(data["label"] == "retained") | (data["label"] == "churned")]
         labelencoder = LabelEncoder()
         for col in data.columns:
