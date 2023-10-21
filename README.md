@@ -41,13 +41,5 @@ The app utilizes machine learning algorithms to predict user churn based on a da
 
 - **app.py:** The main Streamlit app script containing the code for creating the interactive web interface and integrating machine learning models.
 - **data/waze_dataset.csv:** The dataset used for training and testing the models. It contains user engagement and activity metrics.
-- **web_app_screenshot.png:** A screenshot of the web app interface, included in the README.
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 Explore the [Waze Churn Prediction Web App](https://waze-churn.streamlit.app/) to see the app in action and interact with its features.
