@@ -12,7 +12,7 @@ Try out the app: [Waze Churn Prediction Web App](https://waze-churn.streamlit.ap
 - [Features](#features)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
-- [File Structure](#file-structure
+- [File Structure](#file-structure)
 - [License](#license)
 
 ## Overview
